@@ -1,0 +1,19 @@
+body { margin: 0;padding: 2px; box-sizing: border-box; margin-top: 50px; font-family: sans-serif; background: white; color: #092233; text-align: left;} 
+header { display: flex; position: fixed; top: 0; left: 0; right: 0; height: 50px; line-height: 50px; color: white; background-color: #092233; margin: 0 5px}
+header a { text-decoration: none; color: white; }
+header * { display: inline; height: 50px; padding: 0px 2px;}
+li a:hover {background-color:blue;}
+header ul { padding: 0; } 
+header li { margin-left: 20px; } 
+section { height: 100vh; border: 1px solid black; display: flex; justify-content: center; align-items: center; text-align: center; background-size: cover; background-position: center center; background-repeat: no-repeat; background-attachment: fixed;}
+.social-icon {font-size: 2em; text-align: center;
+  text-decoration: none;
+  margin: 0px 0.5px; color: #092233;}
+li, h3 {text-align: left;}
+h1{text-align: center;}
+h4{opacity: 50%; font: monospace;}
+img{border-radius: 50%; border: 5px solid blue; height: 200px; justify-content: right; color: brown; border-color: #092233;}
+section h2 { font-size: 2.5em; } 
+section h3 { font-size: 1.5em; } 
+#contact {width: 100%; color:#092233;}
+footer{padding: 3px; background: #092233; color: white; text-align: center;}
